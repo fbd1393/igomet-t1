@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v25.0.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>test</title>
+
+    <style>
+        
+        body{
+            font-family: 'Vazir', sans-serif;
+            background-color: #202020;
+        }
+
+        .main{
+            width: 100vw;
+            height: 100vh;
+            background-color: #202020;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .div{
+            width: 250px;
+            height: 250px;
+            background-color: gray;
+            color:green;
+            text-align: center;
+        }
+
+
+        .parent {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .child {
+        flex: 1 0 21%; /* explanation below */
+        margin: 5px;
+        height: 100px;
+        background-color: rgb(0, 174, 255);
+      }
+
+    </style>
+</head>
+<body>
+
+    <!-- <main class="main" id="main">
+        <div class="div" id="div1"><h1>1</h1></div>
+        <div class="div" id="div2"><h1>2</h1></div>
+        <div class="div" id="div3"><h1>3</h1></div>
+        <div class="div" id="div4"><h1>4</h1>
+            <button onclick="func4()">Click me</button></div>
+        <div class="div" id="div5" onclick="test()"><h1>5</h1></div>
+    </main> -->
+    
+
+
+      <div class="parent">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+        <div class="child">4</div>
+        <div class="child">5</div>
+        <div class="child">6</div>
+        <div class="child">7</div>
+        <div class="child">8</div>
+      </div>
+
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/test.js"></script>    
+</body>
+</html>
